@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+<version>
+	<application>gtmSetup</application>
+	<type>plugins.generic</type>
+	<release>1.0.0.0</release>
+	<date>2026-05-05</date>
+	<class>APP\plugins\generic\gtmSetup\GtmSetupPlugin</class>
+	<lazy-load>0</lazy-load>
+	<sitewide>0</sitewide>
+</version>
