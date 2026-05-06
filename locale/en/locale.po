@@ -1,0 +1,29 @@
+msgid "plugins.generic.gtmSetup.displayName"
+msgstr "GTM Setup"
+
+msgid "plugins.generic.gtmSetup.description"
+msgstr "Easily setup Google Tag Manager scripts and track user registrations for Google Ads without editing code."
+
+msgid "plugins.generic.gtmSetup.manager.settings.gtmId"
+msgstr "Google Tag Manager ID"
+
+msgid "plugins.generic.gtmSetup.manager.settings.gtmIdDescription"
+msgstr "Enter your Google Tag Manager Container ID (e.g., GTM-XXXXXXX)."
+
+msgid "plugins.generic.gtmSetup.manager.settings.trackRegistration"
+msgstr "Enable User Registration Tracking"
+
+msgid "plugins.generic.gtmSetup.manager.settings.trackRegistrationDescription"
+msgstr "Enable User Registration Tracking (Adds ?registrationSuccess=1 to login URL after email validation)"
+
+msgid "plugins.generic.gtmSetup.manager.settings.trackBackend"
+msgstr "Enable Backend Tracking"
+
+msgid "plugins.generic.gtmSetup.manager.settings.trackBackendDescription"
+msgstr "Enable Backend Tracking (Injects GTM tags into Editorial/Manager backend pages)"
+
+msgid "plugins.generic.gtmSetup.manager.settings.trackPaymentSuccess"
+msgstr "Enable Payment Success Tracking"
+
+msgid "plugins.generic.gtmSetup.manager.settings.trackPaymentSuccessDescription"
+msgstr "Enable Payment Success Tracking (Injects GTM tags and DataLayer variables into the Razorpay payment success page)"
