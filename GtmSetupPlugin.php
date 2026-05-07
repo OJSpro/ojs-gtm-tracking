@@ -34,6 +34,7 @@ class GtmSetupPlugin extends GenericPlugin {
 				// Handle Registration Tracking Redirect
 				Hook::add('Request::redirect', [$this, 'callbackRedirect']);
 			}
+			$this->addLocaleData();
 			return true;
 		}
 		return false;

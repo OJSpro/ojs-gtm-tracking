@@ -43,9 +43,9 @@ class GtmSetupSettingsForm extends Form {
 	public function initData() {
 		$this->_data = [
 			'gtmId' => $this->_plugin->getSetting($this->_contextId, 'gtmId'),
-			'trackRegistration' => $this->_plugin->getSetting($this->_contextId, 'trackRegistration'),
-			'trackBackend' => $this->_plugin->getSetting($this->_contextId, 'trackBackend'),
-			'trackPaymentSuccess' => $this->_plugin->getSetting($this->_contextId, 'trackPaymentSuccess'),
+			'trackRegistration' => (bool) $this->_plugin->getSetting($this->_contextId, 'trackRegistration'),
+			'trackBackend' => (bool) $this->_plugin->getSetting($this->_contextId, 'trackBackend'),
+			'trackPaymentSuccess' => (bool) $this->_plugin->getSetting($this->_contextId, 'trackPaymentSuccess'),
 		];
 	}
 
