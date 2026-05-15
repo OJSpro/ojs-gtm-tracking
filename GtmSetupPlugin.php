@@ -187,7 +187,13 @@ class GtmSetupPlugin extends GenericPlugin {
 			return false;
 		}
 
+		// PKPComponentRouter (used by AJAX/component calls like iThenticate) does
+		// not have getRequestedPage(). Only proceed on a standard page router.
 		$router = $request->getRouter();
+		if (!($router instanceof \PKP\core\PKPPageRouter)) {
+			return false;
+		}
+
 		$page = $router->getRequestedPage($request);
 		$op = $router->getRequestedOp($request);
 
